@@ -8,9 +8,9 @@ import { FiTwitter } from "react-icons/fi";
 
 export default function Footer() {
   return (
-    <div className='flex flex-col items-center justify-center gap-5'>
+    <div className='flex flex-col items-center justify-center gap-3'>
     <Link to='/' className='flex items-center gap-4'>
-      <div className="flex gap-2 items-center justify-center">
+      <div className="flex gap-5 items-center justify-center">
         <img src={logo} alt="" />
         <svg
           xmlns="http://www.w3.org/2000/svg"
